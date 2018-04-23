@@ -1,0 +1,22 @@
+.wrapper{
+	display: flex;
+    align-items: center;
+    flex-direction: column; 
+    justify-content: center;
+	background: $white;
+	height: 100%;
+	width: 100%;
+}
+.container{
+	width: 60%;
+	height: 450px;
+	position: relative;
+	background: $dark-blue;
+	box-shadow: 0 25px 90px rgba(0, 0, 0, .5);
+}
+.form{
+	margin: auto;
+	width: 80%;
+	text-align: center;
+	padding: 50px 0;
+}
